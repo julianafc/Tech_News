@@ -13,10 +13,10 @@
     --text-color-secondary: #CBD5E1;
 
     --font-family: "Archivo", sans-serif;
-    --text-h1: extrabold 24px/135% var(--font-family);
-    --text-h2: extrabold 16px/140% var(--font-family);
-    --text-h3: extrabold 14px/140% var(--font-family);
-    --text-span: semibold 14px/145% var(--font-family);
+    --text-h1: 900 24px/135% var(--font-family);
+    --text-h2: 900 16px/140% var(--font-family);
+    --text-h3: 900 14px/140% var(--font-family);
+    --text-span: 600 14px/145% var(--font-family);
     --text: 16px/140% var(--font-family);
     --text-sm: 14px/160% var(--font-family);
 }
@@ -55,4 +55,16 @@ img {
 
 main {
     margin-top: 40px;
+}
+
+.content-tag {
+    display: inline-block;
+    background-color: var(--brand-color-dark);
+    color: var(--text-color-primary);
+    padding: 4px 8px;
+    border-radius: 4px;
+    font: 500 10px/120% var(--font-family);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    box-shadow: 0px 4px 16px rgba(2, 6, 23, 0.25);
 }
