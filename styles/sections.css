@@ -62,11 +62,7 @@ section header {
     grid-area: weekly;
 
     &>div {
-        grid-template-columns: repeat(4, 292px);
-    }
-
-    img {
-        height: 160px;
+        grid-template-columns: repeat(4, 1fr);
     }
 
     figure {
@@ -117,15 +113,18 @@ aside {
     }
 }
 
-@media (max-width: 1284px) {
+@media (max-width: 890px) {
     main {
         grid-template-columns: 1fr;
-        grid-template-areas:
-            "featured"
+        grid-template-areas: "featured"
             "weekly"
             "ai"
             "aside";
         aspect-ratio: 1/1;
+    }
+
+    #featured {
+        grid-auto-flow: row;
     }
 
     #weekly {
