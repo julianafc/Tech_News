@@ -26,6 +26,6 @@ Tech News é um portal de notícias ficticio focado em tecnologia, trazendo as p
 
 ## 🖼️ Demonstração
 
-![Print do Site](#)
+<img width="1920" height="2485" alt="Print do Site" src="https://github.com/user-attachments/assets/b9eb98d4-dbf4-49c8-ab88-9158a697f4ea" />
 
 - Acesse o projeto através deste link: [Tech News](https://julianafc.github.io/Tech_News/)
