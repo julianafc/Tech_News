@@ -125,6 +125,10 @@ aside {
 
     #featured {
         grid-auto-flow: row;
+
+        img{
+            height: auto;
+        }
     }
 
     #weekly {
