@@ -126,7 +126,7 @@ aside {
     #featured {
         grid-auto-flow: row;
 
-        img{
+        img {
             height: auto;
         }
     }
@@ -147,8 +147,8 @@ aside {
             grid-template-columns: 1fr;
 
             img {
-                min-width: 70px;
-                min-height: 70px;
+                max-width: 176px;
+                max-height: 176px;
             }
         }
     }
